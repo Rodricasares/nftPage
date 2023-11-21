@@ -10,11 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/akaya-telivigala": "^5.0.8",
     "@fontsource/sora": "^5.0.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
-    "styled-components": "^6.1.1"
+    "styled-components": "^6.1.1",
+    "swiper": "^11.0.4",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

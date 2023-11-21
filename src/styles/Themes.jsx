@@ -6,7 +6,7 @@ EM = Píxeles
 4 em	64 px
 */
 export const Light ={
-    body: "#6f7dcf",
+    body: "#fff",
     text: "#202020",
     bodyRgba: "255, 255, 255",
     textRgba: "32,32,32",

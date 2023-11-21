@@ -22,4 +22,13 @@ Currently, two official plugins are available:
 
 - Fonts (Fuente)
 
-    ·npm i @fontsource/sora# nftPage
+    ·npm i @fontsource/sora
+    ·npm i @fontsource/akaya-telivigala
+
+- typewriter-effect
+
+    ·npm i typewriter-effect
+
+- Swiper v11.0.4
+
+    ·npm install swiper

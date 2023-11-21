@@ -2,11 +2,12 @@ import styled from "styled-components";
 import { Logo } from "./Logo";
 import { useState } from "react";
 
+
 export function Navegation() {
   const[click, setClick]=useState(false)
   const scrollTo=(id)=>{
     let element = document.getElementById(id);
-    element.scrollIntoView({
+      element.scrollIntoView({
       behavior:"smooth",
       block:"start",
       inline:"nearest"
@@ -21,9 +22,13 @@ export function Navegation() {
         <HamburgerMenu click={click} onClick={()=>setClick(!click)}>
 
         </HamburgerMenu>
-        <Menu click={click}>
-<MenuItem onClick={()=>scrollTo("home")}>Home</MenuItem>
-<MenuItem onClick={()=>scrollTo("about")}>About</MenuItem>
+        <Menu click={click}> 
+          <MenuItem onClick={() => scrollTo("home")}> Home</MenuItem>
+          <MenuItem onClick={() => scrollTo("about")}> Acerca de</MenuItem>
+          <MenuItem onClick={() => scrollTo("roadmap")}> RoadMap</MenuItem>
+          <MenuItem onClick={() => scrollTo("cards")}> Cards</MenuItem>
+          <MenuItem onClick={() => scrollTo("team")}> Equipo</MenuItem>
+          <MenuItem onClick={() => scrollTo("preguntas")}> Preguntas</MenuItem>
         </Menu>
       </NavBar>
     </Section>
