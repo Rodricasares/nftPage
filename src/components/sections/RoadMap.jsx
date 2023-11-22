@@ -3,14 +3,14 @@ import { DrawSvg } from "../DrawSvg";
 export function Roadmap() {
   return (
     <Section id="roadmap">
-      <Title>Roadmap</Title>
+      <Title>RoadMap</Title>
       <Container>
         <SvgContainer>
           <DrawSvg />
         </SvgContainer>
         <Items>
           <RoadMapItem subtitle='F.P. Micro-Sistemas y Redes' subtext='Málaga - I.E.S. Ciudad Jardín'/>
-          <RoadMapItem subtitle='BootCamp Full-Stack Software Develoment' subtext='Madrid - 4Geeks Academy'/>
+          <RoadMapItem subtitle='BootCamp Full-Stack Software Development' subtext='Madrid - 4Geeks Academy'/>
           <RoadMapItem subtitle='Certificado javaScript de 0 a experto' subtext='Udemy - Academia Online'/>
        
         </Items>

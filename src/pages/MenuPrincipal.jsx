@@ -5,6 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { Home } from "../components/sections/Home";
 import { About } from "../components/sections/About";
 import { Roadmap } from "../components/sections/RoadMap";
+import { ShowCase } from "../components/sections/ShowCase";
 export function MenuPrincipal() {
 
   return (
@@ -15,6 +16,7 @@ export function MenuPrincipal() {
       <Home />
       <About />
       <Roadmap />
+      <ShowCase />
       </ThemeProvider>
 
 

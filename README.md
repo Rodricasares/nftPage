@@ -8,8 +8,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
+
 # Librerias
 
+# Navegation 
 - React router dom
     
     · npm i react-router-dom
@@ -25,13 +27,16 @@ Currently, two official plugins are available:
     ·npm i @fontsource/sora
     ·npm i @fontsource/akaya-telivigala
 
+# Home
 - typewriter-effect
 
     ·npm i typewriter-effect
-
+# Acerca de
 - Swiper v11.0.4
 
     ·npm install swiper
+
+# Roadmad
 
 - GSAP (GreenSock Animation Platform)
 
