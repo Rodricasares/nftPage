@@ -32,3 +32,7 @@ Currently, two official plugins are available:
 - Swiper v11.0.4
 
     ·npm install swiper
+
+- GSAP (GreenSock Animation Platform)
+
+    ·npm install gsap

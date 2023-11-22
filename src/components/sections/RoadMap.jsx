@@ -1,18 +1,23 @@
-import styled, { keyframes }  from "styled-components";
+import styled from "styled-components";
 import { DrawSvg } from "../DrawSvg";
-
-export function RoadMap() {
-    return (<Section id="roadmap">
-        <Title> My Roadmap      </Title>
-
-<Container>
-    <SvgContainer><DrawSvg/></SvgContainer>
-
-</Container>
-    </Section>);
+export function Roadmap() {
+  return (
+    <Section id="roadmap">
+      <Title>Roadmap</Title>
+      <Container>
+        <SvgContainer>
+          <DrawSvg />
+        </SvgContainer>
+        <Items>
+          <RoadMapItem subtitle='F.P. Micro-Sistemas y Redes' subtext='Málaga - I.E.S. Ciudad Jardín'/>
+          <RoadMapItem subtitle='BootCamp Full-Stack Software Develoment' subtext='Madrid - 4Geeks Academy'/>
+          <RoadMapItem subtitle='Certificado javaScript de 0 a experto' subtext='Udemy - Academia Online'/>
+       
+        </Items>
+      </Container>
+    </Section>
+  );
 }
-
-
 const Section = styled.section`
   min-height: 100vh;
   width: 100vw;
@@ -112,8 +117,8 @@ const RoadMapItem = ({subtitle,subtext}) => {
   return <Item>
     <ItemContainer>
 <Box>
-  <SubTitle>Subtitle</SubTitle>
-  <Text>subtext</Text>
+  <SubTitle>{subtitle}</SubTitle>
+  <Text>{subtext}</Text>
 </Box>
     </ItemContainer>
   </Item>;
