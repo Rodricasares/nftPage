@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 export function Logo(){
-    return(<LogoText><Link to="/">Logo</Link></LogoText>)
+    return(<LogoText><Link to="/">R.</Link></LogoText>)
 }
 
 const LogoText = styled.h1`

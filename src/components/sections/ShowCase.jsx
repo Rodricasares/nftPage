@@ -18,7 +18,7 @@ export function ShowCase() {
     const Row1Ref = useRef(null);
     const Row2Ref = useRef(null);
 
-const NftItem = ({img,number=0,price=0, passRef}) =>{
+const NftItem = ({img,number=0,price=0, passRef}) => {
 
 let play = (e) => {
     passRef.current.style.animationPlayState = "running";

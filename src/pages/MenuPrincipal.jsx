@@ -6,6 +6,7 @@ import { Home } from "../components/sections/Home";
 import { About } from "../components/sections/About";
 import { Roadmap } from "../components/sections/RoadMap";
 import { ShowCase } from "../components/sections/ShowCase";
+import { Team } from "../components/sections/Projects";
 export function MenuPrincipal() {
 
   return (
@@ -17,6 +18,7 @@ export function MenuPrincipal() {
       <About />
       <Roadmap />
       <ShowCase />
+      <Team/>
       </ThemeProvider>
 
 

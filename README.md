@@ -41,3 +41,10 @@ Currently, two official plugins are available:
 - GSAP (GreenSock Animation Platform)
 
     ·npm install gsap
+
+# Projects
+- React confetti
+    ·npm i react-confetti
+    
+- instalar windows size react
+    ·npm i react-window-size
